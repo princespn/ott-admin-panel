@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#toast-fade").on("click",function(){var t=$("#msgData").val();toastr.success(t,"",{showMethod:"fadeIn",hideMethod:"fadeOut",timeOut:2e3})})});
